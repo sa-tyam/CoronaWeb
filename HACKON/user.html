@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+        <title>My Account</title>
+        <style>
+              @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ";
+              @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap');
+
+              body{
+                  margin: 0;
+                  padding: 0;
+                  background: url(ham.jpg);
+                  color: white;
+                  background-size: cover;
+                  font-family: 'Baloo Paaji 2', cursive;
+              }
+
+              .login-box{
+                  width: 280px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  color: black;
+                  border: 1px solid white;
+                  padding: 8px;
+              }
+
+               h1{
+                  width: 280px;
+                  position: absolute;
+                  top: 20%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  color: white;
+                  text-align: center;
+                  font-size: 40px;
+                  margin-bottom: 50px;
+                  padding: 8px;
+                  border: 1px solid white;
+              }
+
+              .textbox{
+                  width: 100%;
+                  overflow: hidden;
+                  font-size: 20px;
+                  padding: 8px 0;
+                  margin: 8px 0;
+                  border-bottom: 1px solid white;
+              }
+
+              .textbox i{
+                  float: left;
+                  width: 26px;
+                  text-align: center;
+                  color: white;
+              }
+
+              .textbox input{
+                  background: none;
+                  outline: none;
+                  border: none;
+                  color: white;
+                  font-size: 18px;
+                  text-align: center;
+                  width: 80%;
+                  width: 0 10px;
+              }
+
+              .btn{
+                  width: 100%;
+                  background: none;
+                  color: white;
+                  border: 2px solid white;
+                  font-size: 18px;
+                  padding: 5px;
+                  cursor: pointer;
+                  margin: 12px 0;
+
+              }
+
+
+        </style>
+
+        <body>
+        <form class="modal-content animate" action="shop.html" method="post">
+        <h1>User Account</h1>
+            <div class="login-box">
+                
+                <div class="textbox">
+                     <i class="fa fa-user" aria-hidden="true"></i>
+                     <input type="text" placeholder="Username" value="">
+                </div>
+
+                <div class="textbox">
+                     <i class="fa fa-product-hunt" aria-hidden="true"></i>
+                     <input type="number" placeholder="Contact Number" value="">
+                </div>
+
+                <div class="textbox">
+                    <i class="fa fa-fw fa-search"></i>
+                    <input type="address" placeholder="Address"value="">
+                </div>
+
+                <div class="textbox">
+                     <i class="fa fa-etsy" aria-hidden="true"></i>
+                     <input type="email" placeholder="Email" value="">
+                </div>  
+
+                <input class="btn" type="button" name="" value="Create"> 
+
+            </div> 
+        </form>                       
+
+        </body>
+
+</html>        
